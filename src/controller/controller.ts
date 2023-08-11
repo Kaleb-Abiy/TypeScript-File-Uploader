@@ -8,7 +8,6 @@ import {Express , Request, Response } from "express";
 // const baseUrl = "http://localhost:8080/files/";
 
 const upload = async (req: Request, res: Response) => {
-  console.log('hi')
   try {
     
     await uploadFile(req, res);
